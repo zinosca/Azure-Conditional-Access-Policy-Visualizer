@@ -5,16 +5,26 @@ import azure.conditional.assignments.conditions.Conditions;
 import azure.conditional.assignments.targetresources.TargetResources;
 import azure.conditional.assignments.users.UserGroup;
 
-/**
- * Still need to do
- */
-
 public class Assignments {
-    private UserGroup userGroup;
-    private TargetResources targetResources;
-    private Conditions conditions;
+    private final UserGroup userGroup;
+    private final TargetResources targetResources;
+    private final Conditions conditions;
 
-    public Assignments() {
+    public Assignments(UserGroup userGroup, TargetResources targetResources, Conditions conditions) {
+        this.userGroup = userGroup;
+        this.targetResources = targetResources;
+        this.conditions = conditions;
+    }
 
+    public UserGroup getUserGroup() {
+        return userGroup;
+    }
+
+    public TargetResources getTargetResources() {
+        return targetResources;
+    }
+
+    public Conditions getConditions() {
+        return conditions;
     }
 }

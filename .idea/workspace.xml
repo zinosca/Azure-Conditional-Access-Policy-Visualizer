@@ -4,39 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a2a740c-a266-4f5b-81b2-1fe7c0fc563d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Azure-Conditional-Access-Policy-Visualizer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/ConditionalAccessPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/Logic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/PolicyVisualizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/accesscontrols/AccessControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/accesscontrols/Session/Session.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/assignments/Assignments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/assignments/conditions/ClientApps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/assignments/conditions/Conditions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/assignments/conditions/DevicePlatforms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/assignments/conditions/FilterForDevices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/assignments/conditions/FilteredDevicesRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/assignments/conditions/Locations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/assignments/conditions/SignInRisk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/assignments/conditions/UserRisk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/assignments/conditions/config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/assignments/targetresources/Resource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/assignments/targetresources/TargetResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/assignments/targetresources/UserActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/assignments/users/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/assignments/users/GuestsOrExternalUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/assignments/users/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/assignments/users/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/assignments/users/UserGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/untitled.iml" afterDir="false" />
+    <list default="true" id="7a2a740c-a266-4f5b-81b2-1fe7c0fc563d" name="Changes" comment="first init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/azure/ConditionalAccessPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azure/ConditionalAccessPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/azure/conditional/accesscontrols/AccessControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/accesscontrols/AccessControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/azure/conditional/assignments/Assignments.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azure/conditional/assignments/Assignments.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,8 +107,17 @@
       <workItem from="1681712793876" duration="1075000" />
       <workItem from="1687178877391" duration="1483000" />
       <workItem from="1687334695357" duration="10563000" />
-      <workItem from="1687417569809" duration="6398000" />
+      <workItem from="1687417569809" duration="7196000" />
+      <workItem from="1687777493059" duration="533000" />
     </task>
+    <task id="LOCAL-00001" summary="first init">
+      <created>1687427205697</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687427205697</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,5 +133,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first init" />
+    <option name="LAST_COMMIT_MESSAGE" value="first init" />
   </component>
 </project>
