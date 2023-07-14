@@ -4,7 +4,6 @@
  */
 // the Java plugin is added by default in the main lab configuration
 plugins {
-    id 'java'
     // Apply the application plugin to add support for building a CLI application.
     id 'application'
     // Adding JavaFX support and dependencies
@@ -13,7 +12,7 @@ plugins {
 
 // Project/Module information
 description = 'ACAP'
-group = 'pcs'
+group = 'azure'
 version = '2023'
 
 // Dependency configuration
@@ -25,11 +24,13 @@ repositories {
 dependencies {
     implementation 'org.openjfx:javafx-controls:16' // Ersetzen Sie 16 durch die gewünschte JavaFX-Version
     implementation 'org.openjfx:javafx-fxml:16' // Ersetzen Sie 16 durch die gewünschte JavaFX-Version
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.7.1'
 }
 
 // Configuration for Application plugin
 application {
     // Define the main class for the application.
+    mainClass = 'azure.App'
 
 }
 
