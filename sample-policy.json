@@ -1,0 +1,28 @@
+{
+  "id": "IX003-06",
+  "displayName": "BLOCK - Access for all users from AE except excluded users",
+  "state": "enabled",
+  "conditions": {
+    "includeLocations": ["AE"],
+    "excludeLocations": [],
+    "includeUsers": ["All"],
+    "excludeUsers": ["admin@example.com", "support@example.com"],
+    "includeApplications": ["All"],
+    "excludeApplications": [],
+    "includePlatforms": ["All"],
+    "excludePlatforms": [],
+    "includeDevices": ["All"],
+    "excludeDevices": [],
+    "includeRoles": ["All"],
+    "excludeRoles": []
+  },
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": ["block"]
+  },
+  "sessionControls": {
+    "applicationEnforcedRestrictions": {
+      "isEnabled": true
+    }
+  }
+} 
