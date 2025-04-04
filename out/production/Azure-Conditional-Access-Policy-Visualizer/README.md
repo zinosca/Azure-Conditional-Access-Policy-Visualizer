@@ -1,1 +1,0 @@
-# Azure-Conditional-Access-Policy-Visualizer
